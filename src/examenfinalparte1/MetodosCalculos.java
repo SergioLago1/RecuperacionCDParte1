@@ -6,6 +6,7 @@ public class MetodosCalculos {
 /**
      * Pasandole los parámetros j y m de tipo int realiza una operación mediante el método Suma con los datos introducidos.
      * Una vez realizada la operación asigna el resultado a la variable i.
+     *  Modificado el constuctor. Pasa a ser un método de tipo int. Para facilitar así diferenciarlo de los otros metodos a la hora de llamarlo.
      * @param m variable de tipo int
      * @param j variable de tipo int
      */
@@ -16,7 +17,8 @@ public class MetodosCalculos {
     }
  /**
   * Pasandole unicamente el parametro j realizará la operación del metodo Suma, sumará j+j.
-  * Recoge el resultado de la operación en la variable i.
+    * Recoge el resultado de la operación en la variable i.
+  * Modificado el constuctor. Pasa a ser un método de tipo int. Para facilitar así diferenciarlo de los otros metodos a la hora de llamarlo.
   * @param j variable de tipo int
   */
    public int SumaMismaVariable(int j){
@@ -25,6 +27,7 @@ public class MetodosCalculos {
     }
  /**
   * La variable i,valdrá -1.
+  * Modificado el constuctor. Pasa a ser un método de tipo int. Para facilitar así diferenciarlo de los otros metodos a la hora de llamarlo.
   */
    public int VariableMenosUno() {
         i = -1;
